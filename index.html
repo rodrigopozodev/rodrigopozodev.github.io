@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrenamiento de Músculos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Entrenamiento Gimnasio</h1>
+    </header>
+    <main>
+        <select id="bodyPart" onchange="updateMuscleGroups()">
+            <option value="">Selecciona una parte del cuerpo...</option>
+            <option value="Brazos">Brazos</option>
+            <option value="Hombros">Hombros</option>
+            <option value="Pecho">Pecho</option>
+            <option value="Espalda">Espalda</option>
+            <option value="Abdomen">Abdomen</option>
+            <option value="Piernas">Piernas</option>
+            <option value="Cuello">Cuello</option>
+            <option value="Otros">Otros Músculos</option>
+        </select>
+        
+        <select id="muscleGroup" onchange="showMuscles()">
+            <option value="">Selecciona un grupo muscular...</option>
+        </select>
+        
+        <div id="results"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
