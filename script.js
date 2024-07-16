@@ -18,7 +18,7 @@ const data = {
             "Tríceps braquial (cabeza larga)": [
                 {
                     ejercicio: "extensión de tríceps por encima de la cabeza con mancuernas",
-                    video: ""
+                    video: "https://youtube.com/shorts/tx-TgvQCJpQ?si=pZ_4l80hn42gRrDW"
                 }
             ],
             "Tríceps braquial (cabeza lateral)": [
@@ -37,74 +37,26 @@ const data = {
         "Antebrazo": {
             "Pronador redondo": [
                 {
-                    ejercicio: "Pronación de muñeca con mancuerna",
-                    video: "https://www.youtube.com/embed/VIDEO_ID7"
+                    ejercicio: "Curl Inverso",
+                    video: "https://youtube.com/shorts/svosjAqIg-c?si=ZNGwclEZzwKRAHqz"
                 }
             ],
             "Flexor radial del carpo": [
                 {
-                    ejercicio: "Flexión de muñeca con barra",
-                    video: "https://www.youtube.com/embed/VIDEO_ID8"
+                    ejercicio: "Curl de Muñeca con Barra",
+                    video: "https://youtube.com/shorts/Hr1OE3q2q9I?si=woF141wgsZOdHrNE"
                 }
             ],
             "Flexor cubital del carpo": [
                 {
-                    ejercicio: "Flexión ulnar del carpo con barra",
-                    video: "https://www.youtube.com/embed/VIDEO_ID9"
+                    ejercicio: "Curl de Muñeca con Barra",
+                    video: "https://youtube.com/shorts/Hr1OE3q2q9I?si=woF141wgsZOdHrNE"
                 }
             ],
             "Flexor superficial de los dedos": [
                 {
                     ejercicio: "Flexión de dedos con barra",
-                    video: "https://www.youtube.com/embed/VIDEO_ID10"
-                }
-            ],
-            "Flexor profundo de los dedos": [
-                {
-                    ejercicio: "Flexión profunda de dedos con mancuerna",
-                    video: "https://www.youtube.com/embed/VIDEO_ID11"
-                }
-            ],
-            "Flexor largo del pulgar": [
-                {
-                    ejercicio: "Flexión de pulgar con gomas",
-                    video: "https://www.youtube.com/embed/VIDEO_ID12"
-                }
-            ],
-            "Pronador cuadrado": [
-                {
-                    ejercicio: "Pronación de muñeca con polea",
-                    video: "https://www.youtube.com/embed/VIDEO_ID13"
-                }
-            ],
-            "Extensor radial corto del carpo": [
-                {
-                    ejercicio: "Extensión radial corta de muñeca con mancuerna",
-                    video: "https://www.youtube.com/embed/VIDEO_ID14"
-                }
-            ],
-            "Extensor radial largo del carpo": [
-                {
-                    ejercicio: "Extensión radial larga de muñeca con barra",
-                    video: "https://www.youtube.com/embed/VIDEO_ID15"
-                }
-            ],
-            "Extensor cubital del carpo": [
-                {
-                    ejercicio: "Extensión ulnar del carpo con barra",
-                    video: "https://www.youtube.com/embed/VIDEO_ID16"
-                }
-            ],
-            "Extensor de los dedos": [
-                {
-                    ejercicio: "Extensión de dedos con gomas",
-                    video: "https://www.youtube.com/embed/VIDEO_ID17"
-                }
-            ],
-            "Extensor del dedo meñique": [
-                {
-                    ejercicio: "Extensión del meñique con polea",
-                    video: "https://www.youtube.com/embed/VIDEO_ID18"
+                    video: "https://youtube.com/shorts/ZJFxNp69Yt0?si=X85txBZGtxZi9Pbw"
                 }
             ]
         }
@@ -113,8 +65,8 @@ const data = {
         "Deltoides (anterior)": {
             "Deltoides anterior": [
                 {
-                    ejercicio: "Press militar con barra",
-                    video: "https://www.youtube.com/embed/VIDEO_ID19"
+                    ejercicio: "Press militar",
+                    video: "https://youtube.com/shorts/PWtkHROaH3Y?si=tZs3f0GRX0odR9_L"
                 }
             ]
         },
