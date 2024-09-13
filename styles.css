@@ -1,120 +1,55 @@
-/* Reset básico para asegurar consistencia entre navegadores */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Aplica un fondo de pantalla completo a la página */
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    background-image: url('img/Gravelinas.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la pantalla */
+    background-position: center center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Cambia la fuente según tus preferencias */
+    color: white; /* Cambia el color del texto a blanco */
 }
 
+/* Estilos para el contenedor principal */
 #profiles {
-    width: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Fondo negro semitransparente para mejorar la legibilidad */
+    padding: 20px;
+    border-radius: 8px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
+/* Estilos para los equipos */
 .team {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-    padding: 15px;
 }
 
-.team h2 {
-    font-size: 1.5em;
-    margin-bottom: 15px;
-    text-align: center;
-}
-
-.team a {
-    text-decoration: none;
-    color: #007bff;
-    font-weight: bold;
-}
-
-.team a:hover {
-    text-decoration: underline;
-}
-
+/* Estilos para los jugadores */
 .player {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    padding: 10px;
-    background: #f9f9f9;
-    border-radius: 4px;
 }
 
+/* Estilos para los enlaces de los jugadores */
 .player a {
-    margin-right: 15px;
-    color: #333;
-    font-size: 1em;
-    font-weight: 500;
+    color: white; /* Cambia el color del enlace a blanco */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    margin-right: 10px;
 }
 
-.player a:hover {
-    color: #007bff;
-    text-decoration: underline;
-}
-
+/* Estilos para los íconos de línea */
 .player img {
     margin-left: 10px;
-    vertical-align: middle;
 }
 
-/* Estilos responsivos */
+/* Responsividad para dispositivos móviles */
 @media (max-width: 768px) {
-    body {
-        padding: 10px;
-    }
-
-    .team {
-        padding: 10px;
-    }
-
-    .team h2 {
-        font-size: 1.2em;
-    }
-
-    .player a {
-        font-size: 0.9em;
-    }
-
-    .player img {
-        width: 16px;
-        height: 16px;
-    }
-}
-
-@media (max-width: 480px) {
-    .team h2 {
-        font-size: 1em;
-    }
-
     .player {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row; /* Alinea los elementos en fila en dispositivos móviles */
+        align-items: center;
     }
-
-    .player a {
-        margin-bottom: 5px;
-    }
-
+    
     .player img {
-        margin-left: 0;
-        margin-top: 5px;
-        width: 20px;
-        height: 20px;
+        margin-left: 10px;
     }
 }
