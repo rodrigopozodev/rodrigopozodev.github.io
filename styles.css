@@ -1,0 +1,120 @@
+/* Reset básico para asegurar consistencia entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#profiles {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.team {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.team h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.team a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.team a:hover {
+    text-decoration: underline;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+.player a {
+    margin-right: 15px;
+    color: #333;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.player a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.player img {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .team {
+        padding: 10px;
+    }
+
+    .team h2 {
+        font-size: 1.2em;
+    }
+
+    .player a {
+        font-size: 0.9em;
+    }
+
+    .player img {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .team h2 {
+        font-size: 1em;
+    }
+
+    .player {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .player a {
+        margin-bottom: 5px;
+    }
+
+    .player img {
+        margin-left: 0;
+        margin-top: 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
